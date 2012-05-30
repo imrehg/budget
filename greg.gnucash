@@ -34,7 +34,7 @@
 <book:id type="guid">d786cd1176cf6f1e7e38867cf8f89c82</book:id>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">69</gnc:count-data>
-<gnc:count-data cd:type="transaction">23</gnc:count-data>
+<gnc:count-data cd:type="transaction">26</gnc:count-data>
 <gnc:commodity version="2.0.0">
   <cmdty:space>ISO4217</cmdty:space>
   <cmdty:id>GBP</cmdty:id>
@@ -1723,6 +1723,102 @@
       <split:value>-1200/100</split:value>
       <split:quantity>-1200/100</split:quantity>
       <split:account type="guid">ef188a8aaf6a5e03c5a2549413bba60c</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6dea4423fde323f57557c5e0d3a8845d</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-30 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-05-30 13:18:51 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Stamps</trn:description>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">81d70c2d3423886566b992dd7ee6ce88</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>12000/100</split:value>
+      <split:quantity>12000/100</split:quantity>
+      <split:account type="guid">f7732541a120c72241ba8c32e1b39ea3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ed1c42fac764af7014ba5e89beef8398</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-12000/100</split:value>
+      <split:quantity>-12000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ac6d4fc2c89dd82e2264c524ae02de28</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-30 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-05-30 13:19:01 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Lunch</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">24930d710f24149efe27b542c910273b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3000/100</split:value>
+      <split:quantity>3000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d7afd4b1b368c80bbe5a17a1c720a3f4</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3000/100</split:value>
+      <split:quantity>-3000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">09edc89f65c37fb5390b5c47806b967c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-05-30 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-05-30 13:19:12 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Yoghurt drink</trn:description>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">81ee6a78337243a6997cab48d106570d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4200/100</split:value>
+      <split:quantity>4200/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">e67a9f3a9f7cef49a864340f1a2b510d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-4200/100</split:value>
+      <split:quantity>-4200/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
