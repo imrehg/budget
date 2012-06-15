@@ -34,7 +34,7 @@
 <book:id type="guid">d786cd1176cf6f1e7e38867cf8f89c82</book:id>
 <gnc:count-data cd:type="commodity">1</gnc:count-data>
 <gnc:count-data cd:type="account">69</gnc:count-data>
-<gnc:count-data cd:type="transaction">92</gnc:count-data>
+<gnc:count-data cd:type="transaction">112</gnc:count-data>
 <gnc:commodity version="2.0.0">
   <cmdty:space>ISO4217</cmdty:space>
   <cmdty:id>GBP</cmdty:id>
@@ -1076,6 +1076,42 @@
       <split:reconciled-state>n</split:reconciled-state>
       <split:value>-500000/100</split:value>
       <split:quantity>-500000/100</split:quantity>
+      <split:account type="guid">5e9ad3c288c292b8b5d97bf04397a278</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">40a59399a4ef53634fa1c32102f498c0</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:06:17 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Withdraw</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">bbde99bb31be06991633337a98989cac</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>300000/100</split:value>
+      <split:quantity>300000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">db44dd40fc03045ef28806ba45ad4f3e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-300000/100</split:value>
+      <split:quantity>-300000/100</split:quantity>
       <split:account type="guid">5e9ad3c288c292b8b5d97bf04397a278</split:account>
     </trn:split>
   </trn:splits>
@@ -3691,15 +3727,15 @@
     <trn:split>
       <split:id type="guid">d6a53f5ce64ab42fc98b26474f31d061</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>8500/100</split:value>
-      <split:quantity>8500/100</split:quantity>
+      <split:value>7500/100</split:value>
+      <split:quantity>7500/100</split:quantity>
       <split:account type="guid">ff5cbf3679fd9dd4a11f56fc779cc50a</split:account>
     </trn:split>
     <trn:split>
       <split:id type="guid">e0899a957c73ad58e197ede7f5fa624b</split:id>
       <split:reconciled-state>n</split:reconciled-state>
-      <split:value>-8500/100</split:value>
-      <split:quantity>-8500/100</split:quantity>
+      <split:value>-7500/100</split:value>
+      <split:quantity>-7500/100</split:quantity>
       <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
     </trn:split>
   </trn:splits>
@@ -4253,6 +4289,698 @@
       <split:value>-500/100</split:value>
       <split:quantity>-500/100</split:quantity>
       <split:account type="guid">ef188a8aaf6a5e03c5a2549413bba60c</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0d9c3458dfc3544ba7833573b46b63fe</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-12 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:10:40 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Dinner</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-12</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d15235bf26e3411359c56122b4b26da6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4500/100</split:value>
+      <split:quantity>4500/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">6d3035e2825518b82bc084c449eb68b3</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-4500/100</split:value>
+      <split:quantity>-4500/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4607ab3884ddab026c852c15fac3b4a4</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-12 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:10:44 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Coffee</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">21cc2ba30a951e6627c0f55d7008d47e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>18000/100</split:value>
+      <split:quantity>18000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">89f5bc0fcd05e17781a7940349f5813c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-18000/100</split:value>
+      <split:quantity>-18000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ace8dd702f2ec1bbb0847d1e59896ccb</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-12 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:10:53 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Night snack</trn:description>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c493e82f71951128cc7fb0a4969a558e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3551c3e6c2d4abdcc60b614040116264</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f5f00ff016f5dae44939065f94d93d9c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:11:03 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Breakfast</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">a2bfd0ef188d3671f07be44637da03ca</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>4000/100</split:value>
+      <split:quantity>4000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ca0bb0b510773834b46292625755dd5f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-4000/100</split:value>
+      <split:quantity>-4000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">af0233609945decd00f9a0b460633203</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:11:17 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Lunch</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">1c7fa0723b9edddfb6ad3289da1d2419</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>17600/100</split:value>
+      <split:quantity>17600/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">88a5d54759ce971f233d7a8bc3ad6656</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-17600/100</split:value>
+      <split:quantity>-17600/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">560b8a222f3743ef9004c6c7017ee198</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-13 17:11:22 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Ice cream</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">e0bdb97264042fb46c0dda26a47e00ea</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">0d5acde775185f0d7a3a25579c47b5b1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d010dc7925ef24b059fba58ca0522196</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:08:03 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Dinner</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-13</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">09da417626dfc015d7cd7969a72975fe</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8000/100</split:value>
+      <split:quantity>8000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">961363832cbd9c54203afad1e236316c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-8000/100</split:value>
+      <split:quantity>-8000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d13befdf11f2c9a31f32ac4120e23e37</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:08:27 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>CD</trn:description>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">52798b0b34bad206840ced5233d9d1fa</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>34200/100</split:value>
+      <split:quantity>34200/100</split:quantity>
+      <split:account type="guid">8cb983773df202b315dd13a1af6ac3ea</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">bd86c3bfcc3bcb5f34a0d3e0ef79d2f5</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-34200/100</split:value>
+      <split:quantity>-34200/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">84c9e858ab66e057cccd8f1b10b42461</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-13 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:08:40 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Water</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">3058f2a0da6c0475ec7dad93eecef59d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>1300/100</split:value>
+      <split:quantity>1300/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">67a2e7c601a2909e5e1bcd016f99be12</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-1300/100</split:value>
+      <split:quantity>-1300/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">7c4202572fbcae0acf6e5d5efa11fcee</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:04:54 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Breakfast</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-14</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">19f91018a22fe167a8547a51a3af6a7c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5500/100</split:value>
+      <split:quantity>5500/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3641d8d6294d1355030cfdd6ac791aaf</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5500/100</split:value>
+      <split:quantity>-5500/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">e03dac0a332377edf05fffbeca305ef3</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:05:06 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Coffee</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">bca55d772a559aed57c9db15cd64d93c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>10500/100</split:value>
+      <split:quantity>10500/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1ff3a8701804d1bf8b801bfb54c26a7c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-10500/100</split:value>
+      <split:quantity>-10500/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">2f22a56a23848ade2df501f59f366f43</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:05:12 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Lunch</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">2a3c8327490968b86b393d67dbb884f9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>8000/100</split:value>
+      <split:quantity>8000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f7c1025b8bbb9072c47c6ed297cc4cb6</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-8000/100</split:value>
+      <split:quantity>-8000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0a0e0bce68bb389136b403785baf641c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:05:22 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Dinner</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">9f6e12a19d667edb096120ee09ba4e62</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>9900/100</split:value>
+      <split:quantity>9900/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">ad5a5c901a95e4fb75d1a8a8e678b292</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-9900/100</split:value>
+      <split:quantity>-9900/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">400139252ea18ab66ab141e9185edbad</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:05:31 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Cookies</trn:description>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">239c815457387d2f6e0765bcb113b8ad</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>10000/100</split:value>
+      <split:quantity>10000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a0d4b666cebf8c96ab423bad96d1ce8d</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-10000/100</split:value>
+      <split:quantity>-10000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">135c79e718a72c579c00e0afc438d30e</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:05:46 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Snacks</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">0688bc35991a048493849ccb6dbac633</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>16200/100</split:value>
+      <split:quantity>16200/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">baf7ed71f3d0f46d31ee5038831d7054</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-16200/100</split:value>
+      <split:quantity>-16200/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4addc0d81bba9536161ccab0e6b2a14c</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-14 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:09:30 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Brownie</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2012-06-14</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">44ab797ba9c5c5a20452fd5d4c11fb93</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6500/100</split:value>
+      <split:quantity>6500/100</split:quantity>
+      <split:account type="guid">f7732541a120c72241ba8c32e1b39ea3</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">104f3ca995608a60254588c21359d7de</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-6500/100</split:value>
+      <split:quantity>-6500/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">c80dd937aca3f309d8929c511e8c5c19</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-15 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:04:22 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Breakfast</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">cab62f4fb0145c41daa0bf9b045e381e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>3500/100</split:value>
+      <split:quantity>3500/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">7ff4a04f5b1954f34a3a11b33937acdb</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-3500/100</split:value>
+      <split:quantity>-3500/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">f09d5d99f18cb6f5a88b861177edaaac</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-15 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:04:26 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Lunch</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">e27f65de3229f1c80191a295eaaef4d7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>16000/100</split:value>
+      <split:quantity>16000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">4234a3910653d50718a7c89b142675a8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-16000/100</split:value>
+      <split:quantity>-16000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d1a1521ac4ea34c46736acf82f356cef</trn:id>
+  <trn:currency>
+    <cmdty:space>ISO4217</cmdty:space>
+    <cmdty:id>TWD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2012-06-15 00:00:00 +0800</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2012-06-15 14:04:31 +0800</ts:date>
+  </trn:date-entered>
+  <trn:description>Coffee</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string"></slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">23903f963015cc6b4ae4f51622abf91a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>6000/100</split:value>
+      <split:quantity>6000/100</split:quantity>
+      <split:account type="guid">4a36121ede3d0e7828c9e5ab247b90ca</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">adb9e8612cf1a7cbc4c5aaa21888b159</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-6000/100</split:value>
+      <split:quantity>-6000/100</split:quantity>
+      <split:account type="guid">c7b10d6ceb9c168c97769b924fbcfd33</split:account>
     </trn:split>
   </trn:splits>
 </gnc:transaction>
